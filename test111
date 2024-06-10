@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Human Live Streaming Platform Feedback Survey</title>
+</head>
+<body>
+    <h1>Digital Human Live Streaming Platform Feedback Survey</h1>
+
+    <form>
+        <label for="source">How did you hear about our digital human live streaming platform?</label><br>
+        <input type="radio" id="social_media" name="source" value="Social Media">
+        <label for="social_media">Social Media</label><br>
+        <input type="radio" id="friend_recommendation" name="source" value="Friend Recommendation">
+        <label for="friend_recommendation">Friend Recommendation</label><br>
+        <input type="radio" id="advertisement" name="source" value="Advertisement">
+        <label for="advertisement">Advertisement</label><br>
+        <input type="radio" id="other" name="source" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="important_features">Which features do you value the most when using our digital human live streaming platform? Please select all that apply.</label><br>
+        <input type="checkbox" id="quality_variety" name="important_features" value="Quality and variety of animated images">
+        <label for="quality_variety">Quality and variety of animated images</label><br>
+        <input type="checkbox" id="ai_generation" name="important_features" value="Quality of AI human generation">
+        <label for="ai_generation">Quality of AI human generation</label><br>
+        <input type="checkbox" id="language_support" name="important_features" value="Supported languages">
+        <label for="language_support">Supported languages</label><br>
+        <input type="checkbox" id="realtime_script" name="important_features" value="Real-time script generation">
+        <label for="realtime_script">Real-time script generation</label><br>
+        <input type="checkbox" id="audience_interaction" name="important_features" value="Audience interaction">
+        <label for="audience_interaction">Audience interaction</label><br>
+        <input type="checkbox" id="brand_image" name="important_features" value="Brand image representation">
+        <label for="brand_image">Brand image representation</label><br>
+        <input type="checkbox" id="emotion_management" name="important_features" value="Emotion management">
+        <label for="emotion_management">Emotion management</label><br><br>
+
+        <label for="copyright_issues">Have you encountered any copyright issues while using the digital human live streaming platform?</label><br>
+        <input type="radio" id="yes" name="copyright_issues" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="copyright_issues" value="No">
+        <label for="no">No</label><br>
+        <input type="radio" id="unsure" name="copyright_issues" value="Unsure">
+        <label for="unsure">Unsure</label><br><br>
+
+        <label for="improvements">What features do you think need improvement on our digital human live streaming platform?</label><br>
+        <textarea id="improvements" name="improvements" rows="4" cols="50"></textarea><br><br>
+
+        <label for="recommend">How likely are you to recommend our digital human live streaming platform to others?</label><br>
+        <input type="range" id="recommend" name="recommend" min="1" max="10"><br><br>
+
+        <label for="product_info">When using the digital human live streaming platform for product presentations, which product information do you focus on? Please select all that apply.</label><br>
+        <input type="checkbox" id="product_name" name="product_info" value="Product Name">
+        <label for="product_name">Product Name</label><br>
+        <input type="checkbox" id="product_image" name="product_info" value="Product Image">
+        <label for="product_image">Product Image</label><br>
+        <input type="checkbox" id="price" name="product_info" value="Price">
+        <label for="price">Price</label><br>
+        <input type="checkbox" id="target_audience" name="product_info" value="Target Audience">
+        <label for="target_audience">Target Audience</label><br><br>
+
+        <label for="humanlike_features">Do the human-like features of the digital human increase your interest in the live content?</label><br>
+        <input type="radio" id="yes_interest" name="humanlike_features" value="Yes">
+        <label for="yes_interest">Yes</label><br>
+        <input type="radio" id="no_interest" name="humanlike_features" value="No">
+        <label for="no_interest">No</label><br>
+        <input type="radio" id="no_difference" name="humanlike_features" value="No Difference">
+        <label for="no_difference">No Difference</label><br><br>
+
+        <label for="interaction_potential">What potential do you see for digital humans in improving interaction with the audience?</label><br>
+        <textarea id="interaction_potential" name="interaction_potential" rows="4" cols="50"></textarea><br><br>
+
+        <label for="emotional_influence">Do you think the digital human successfully influenced the audience's emotions and encouraged purchase intent?</label><br>
+        <input type="radio" id="yes_emotion" name="emotional_influence" value="Yes">
+        <label for="yes_emotion">Yes</label><br>
+        <input type="radio" id="no_emotion" name="emotional_influence" value="No">
+        <label for="no_emotion">No</label><br>
+        <input type="radio" id="sometimes" name="emotional_influence" value="Sometimes">
+        <label for="sometimes">Sometimes</label><br><br>
+
+        <label for="additional_feedback">If you have any other feedback or suggestions, please share them here.</label><br>
+        <textarea id="additional_feedback" name="additional_feedback" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
